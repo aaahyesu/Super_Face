@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 # SuperChat
 =======
-#Noom
+#Hand's on Hero
 
-Zoom Clone using NodeJS, WebRTC and Websockets.
->>>>>>> 1460b19 (2.7)
+using NodeJS, WebRTC and Websockets.
+
