@@ -56,10 +56,10 @@ function handleMuteClick() {
     .getAudioTracks()
     .forEach((track) => (track.enabled = !track.enabled));
   if (!muted) {
-    muteBtn.innerText = "Unmute";
+    muteBtn.innerText = "음소거 해제";
     muted = true;
   } else {
-    muteBtn.innerText = "Mute";
+    muteBtn.innerText = "음소거";
     muted = false;
   }
 }
@@ -68,10 +68,10 @@ function handleCameraClick() {
     .getVideoTracks()
     .forEach((track) => (track.enabled = !track.enabled));
   if (cameraOff) {
-    cameraBtn.innerText = "Turn Camera Off";
+    cameraBtn.innerText = "카메라 OFF";
     cameraOff = false;
   } else {
-    cameraBtn.innerText = "Turn Camera On";
+    cameraBtn.innerText = "카메라 On";
     cameraOff = true;
   }
 }
