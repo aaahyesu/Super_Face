@@ -28,5 +28,5 @@ wsServer.on("connection", (socket) => {
   });
 });
 
-const handleListen = () => console.log("Lisening on http://localhost:3000");
-httpServer.listen(3000, handleListen);
+const handleListen = () => console.log("Lisening on http://localhost:3001");
+httpServer.listen(3001, handleListen);
